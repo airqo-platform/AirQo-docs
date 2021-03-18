@@ -28,12 +28,9 @@ Before closing an issue, please ensure that you leave a comment describing the s
 Good pull requests (e.g. patches, improvements, new features) are a fantastic help. They should
 remain focused in scope and avoid unrelated commits.
 
-**Please ask first** before embarking on any significant pull request (e.g. implementing new features,
-refactoring code etc.), otherwise you risk spending a lot of time working on something that the
-maintainers might not want to merge into the project.
+**Please ask first** before embarking on any significant pull request (e.g. implementing new features, refactoring code etc.), otherwise you risk spending a lot of time working on something that the maintainers might not want to merge into the project.
 
-Please adhere to the coding conventions used throughout the project. If in doubt, consult the
-different style guides for the tech stack of the service you are contributing to.
+Please adhere to the coding conventions used throughout the project. If in doubt, consult the different style guides for the tech stack of the service you are contributing to.
 
 To contribute to the project, [fork](https://help.github.com/articles/fork-a-repo/) it,
 clone your fork repository, and configure the remotes:
@@ -51,19 +48,16 @@ git checkout master
 git pull --rebase upstream master
 ```
 
-Create a new topic branch from `master` using the naming convention `[type]-[issue/task-number/name]`
-to help us keep track of your contribution scope. The names should not exceed three words for easy readability. Make sure you use git merge instead of git rebase while updating your feature branch with the master - we just want to ensure that the integration of changes into the master branch is as simple as possible. We shall also have short lived branches.
+Create a new topic branch from `master` using the naming convention `[type]-[issue/task-number/name]` to help us keep track of your contribution scope. The names should not exceed three words for easy readability. Make sure you use git merge instead of git rebase while updating your feature branch with the master - we just want to ensure that the integration of changes into the master branch is as simple as possible. We shall also have short lived branches.
 
 ```
 git checkout -b issue-23
 git checkout -b feature-adding-users
 ```
 
-Commit your changes in logical chunks. When you are ready to commit, make sure
-to write a Good Commit Message. Ensure to group your commits into logical units of work before making it public.
+Commit your changes in logical chunks. When you are ready to commit, make sure to write a Good Commit Message. Ensure to group your commits into logical units of work before making it public.
 
-Use your real name (sorry, no pseudonyms or anonymous contributions). If you set your `user.name`
-and `user.email` git configs, you can sign your commit automatically with `git commit -s`.
+Use your real name (sorry, no pseudonyms or anonymous contributions). If you set your `user.name` and `user.email` git configs, you can sign your commit automatically with `git commit -s`.
 
 Locally merge (or rebase) the upstream development branch into your topic branch:
 
