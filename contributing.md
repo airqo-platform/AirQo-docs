@@ -5,12 +5,13 @@ hosted on the [AirQo Organization](https://github.com/airqo-platform) on GitHub.
 
 ## Reporting issues
 
-Reporting issues are a great way to contribute to the project. We are perpetually grateful about a well-written,
-thorough bug report.
+Reporting issues are a great way to contribute to the project. We are perpetually grateful about a well-written, thorough bug report.
 
-Before raising a new issue, check [our issue
-list](https://github.com/airqo-platform/AirQo-modules/issues) to determine if it already contains the
-problem that you are facing.
+Before raising a new issue, check our issue lists to determine if it already contains the problem that you are facing.
+
+- [AirQo-frontend issues](https://github.com/airqo-platform/AirQo-frontend/issues)
+- [AirQo-api issues](https://github.com/airqo-platform/AirQo-api/issues)
+- [AirQo-modules issues](https://github.com/airqo-platform/AirQo-modules/issues)
 
 A good bug report shouldn't leave others needing to chase you for more information. Please be as detailed as possible. The following questions might serve as a template for writing a detailed
 report:
@@ -25,8 +26,7 @@ Before closing an issue, please ensure that you leave a comment describing the s
 
 ## Pull requests
 
-Good pull requests (e.g. patches, improvements, new features) are a fantastic help. They should
-remain focused in scope and avoid unrelated commits.
+Good pull requests (e.g. patches, improvements, new features) are a fantastic help. They should remain focused in scope and avoid unrelated commits.
 
 **Please ask first** before embarking on any significant pull request (e.g. implementing new features, refactoring code etc.), otherwise you risk spending a lot of time working on something that the maintainers might not want to merge into the project.
 
@@ -71,8 +71,17 @@ Push your topic branch up to your fork:
 git push origin issue-[issue-number]
 ```
 
-[Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title
-and detailed description.
+[Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and detailed description.
+
+## Jira integration
+
+If you are part of the core project team, please append your branches, pull requests and commit messages with the Jira card number you are working on e.g. for a branch
+
+```
+ch-merge-configs-PLAT-117
+```
+
+This will enable Jira to automatically link to your work in GitHub, making the information in Jira more valuable.
 
 ## Documentation
 
