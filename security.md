@@ -18,7 +18,7 @@ Data should be encrypted in-flight, encryption at-rest should be considered for 
 
 ## Anti-virus
 
-The plaform largely runs on Linux, so anti virus is a mainly concern for clients. It must be ensured that the plaform does not pass malicious code to clients.
+The plaform largely runs on Linux, so anti-virus is a mainly concern for clients. It must be ensured that the plaform does not pass malicious code to clients.
 
 ## Dependency versions
 
