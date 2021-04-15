@@ -7,6 +7,14 @@ This repo contains the AirQo documentation for the software and hardware platfor
 - [AirQo-modules](https://github.com/airqo-platform/AirQo-modules)
 - [AirQo-docs](https://github.com/airqo-platform/AirQo-docs)
 
+## Contributing
+
 Please see our [contributing guidelines](contributing.md) for information on how to contribute.
+
+## API Documentation
+
+The AirQo platform can be accessed programatically via an API ([API documentation](https://docs.airqo.net/airqo-platform-api/)).
+
+## Security
 
 For information on security considerations when developing or configuring infrastrucure, please see [security](security.md).
