@@ -36,9 +36,9 @@ To contribute to the project, [fork](https://help.github.com/articles/fork-a-rep
 clone your fork repository, and configure the remotes:
 
 ```
-git clone https://github.com/<your-username>/AirQo-modules.git
+git clone https://github.com/<your-username>/<repository-name>.git
 cd AirQo-api
-git remote add upstream https://github.com/airqo-platform/AirQo-modules.git
+git remote add upstream https://github.com/airqo-platform/<repository-name>.git
 ```
 
 If your cloned repository is behind the upstream commits, then get the latest changes from upstream:
